@@ -1,0 +1,13 @@
+project:
+  file: SourceryTestApp.xcodeproj
+  target:
+    name: SourceryTestApp
+    module: SourceryTestApp
+templates:
+  - ./templates/
+output:
+  path: ./SourceryTestApp-generated/
+  link:
+    project: SourceryTestApp.xcodeproj
+    target: SourceryTestApp
+    group: SourceryTestApp-generated
